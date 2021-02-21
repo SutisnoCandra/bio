@@ -7,17 +7,11 @@ a {
   text-decoration: none;
 }
 
-.container {
-  width: 1170px;
-  padding: 0 15px;
-  margin: 0 auto;
-}
-
 .top-wrapper {
-  padding: 180px 0 100px 0;
-  background-color: pink;
+  padding: 180px 0 180px 0;
+  background-color: #FFF8DC;
   background-size: cover;
-  color: dark-grey;
+  color: #292826;
   text-align: center;
 }
 
@@ -38,17 +32,15 @@ a {
 }
 
 .btn-wrapper p {
-  margin: 10px 0;
+  margin: 40px 0;
 }
 
-.signup {
+.mail {
   background-color: #FF0000 ;
 }
-
 .facebook {
   background-color: #3b5998;
 }
-
 .twitter {
   background-color: #55acee;
 }
@@ -57,6 +49,9 @@ a {
 }
 .linkedin{
   background-color: #000080;
+}
+.blogger{
+  background-color: #FF7F00;
 }
 
 .btn {
@@ -78,7 +73,7 @@ a {
 header {
   height: 65px;
   width: 100%;
-  background-color: white;
+  background-color: none;
   position:fixed ;
   top:0px;
   z-index:10;
