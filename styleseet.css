@@ -7,11 +7,12 @@ a {
   text-decoration: none;
 }
 
+
 .top-wrapper {
   padding: 180px 0 180px 0;
-  background-color: #FFF8DC;
+  background-color: #292826;
   background-size: cover;
-  color: #292826;
+  color: #f9d342;
   text-align: center;
 }
 
@@ -19,6 +20,13 @@ a {
   opacity: 0.7;
   font-size: 45px;
   letter-spacing: 5px;
+  margin-bottom: 10px;
+}
+
+.top-wrapper h2 {
+  opacity: 0.7;
+  font-size: 25px;
+  letter-spacing: 2px;
   margin-bottom: 10px;
 }
 
@@ -56,14 +64,16 @@ a {
 
 .btn {
   padding: 12px 24px;
-  color: white;
-  display: inline-block;
-  opacity: 0.8;
-  border-radius: 4px;
+  background-color: #c0c0c0;
+  cursor: pointer;
+  box-shadow: 0 7px #696969;
 }
 
-.btn:hover {
-  opacity: 1;
+
+.btn:active{
+  position: relative;
+  top: 7px;
+  box-shadow: none;
 }
 
 .fa {
@@ -80,8 +90,9 @@ header {
 }
 
 .logo {
-  width: 124px;
-  margin-top: 20px;
+  width: 140px;
+  margin-top: 0.10px;
+  opacity: 0.7;
 }
 
 .header-left {
